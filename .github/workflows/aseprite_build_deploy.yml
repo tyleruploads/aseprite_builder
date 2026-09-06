@@ -9,6 +9,9 @@ on:
 
 env:
   BUILD_TYPE: Release
+
+permissions:
+  contents: write
   
 jobs:
   check-version:
